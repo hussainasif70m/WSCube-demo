@@ -1,0 +1,94 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.whatsappbtn{
+
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    color:#27AE60;
+    font-size: 16px;
+}
+
+.whatsappbtn i{
+    color:#27AE60 ;
+}
+
+.whatsappbtn:hover{
+
+border: 1px solid #27AE60;
+
+}
+
+.call{
+    color: #FFFFFF;
+    padding: 10px 18px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);  /*to right means color will start with 0ACEFE from left to right 2699FB*/
+
+}
+.bannerContent {
+    display: block;
+}
+
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+
+.bannerContent p{
+    font-size: 22px;
+}
+
+
+.bannerContent h1 span {
+    color: #2699FB;
+    background: url(../images/Vector\ 63.png) no-repeat bottom;
+}  /* no repeat means it will not again and again and bottom mean it will be in bottom*/
+
+
+.bannerContent ul {
+    list-style: none;
+}
+
+.bannerContent ul li{
+    font-size: 20px;
+}
+.bannerContent ul li i{
+    color:#2699FB;
+}
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+}
+.bannerContentBtn button:first-child{
+    color: white;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+
+.bannerFarm{
+    padding: 40px;
+}
+.bannerFarm h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.bannerFarm button{
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+
+.counterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}

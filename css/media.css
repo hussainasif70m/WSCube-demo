@@ -1,0 +1,55 @@
+
+@media only screen and (min-width:200px) and (max-width:575px){
+        .btn-outer{
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                background-color: white;
+                padding: 5px 0px;
+                justify-content: center !important; 
+                /* we place keyword important because it will not work because we already place justify-content-end in btn-outer*/
+        }
+       
+        .whatsappbtn,.call{
+        padding: 7px 15px;
+        font-size: 14px;
+        
+        }
+        .bannerContent h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+        }
+
+        .bannerConten br{
+        display: none;
+        }
+
+        .bannerContent p,.bannerContent ul li{
+                font-size: 16px;
+        }
+        .bannerContentBtn{
+                flex-direction: column;
+                
+        }
+        .bannerContentBtn button{
+                width: 100%;
+        }
+
+        .bannerFarm{
+    padding: 20px;
+    border-radius: 10px;
+        }
+
+   }
+@media (min-width:1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+}
+
+}
+
+
+
+
